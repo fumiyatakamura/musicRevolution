@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+    
+    <meta charset="UTF-8">
+    <title>Music Revolution | Rap</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+<div class="wrapper rap">
+
+    <header>
+        
+        <nav class="genre">
+            <h1><a href="#record">musicRevolution</a></h1>
+            <ul>
+                <li><a href="index.html">Rock</a></li>
+                <li><a href="pop.html">Pop</a></li>
+                <li><span class="selected">Rap</span></li>
+            </ul>
+        </nav>
+
+        <nav class="era">
+            <ul>
+                <li><a href="#record">-1960s</a></li>
+                <li><a href="#boombox">1960s-</a></li>
+                <li><a href="#cassette">1970s-</a></li>
+                <li><a href="#cd">1980s-</a></li>
+                <li><a href="#mp3">2000s-</a></li>
+                <li><a href="#sp">2010s-</a></li>
+                <li><a href="#footer">Subscribe</a></li>
+            </ul>
+        </nav>
+
+
+    </header>
+
+    <section class="content">
+
+        <section id="record" class="page">
+            <div class="musicPlayers">
+                <img src="img/recordPlayer.png" alt="Record Player">
+            </div>
+            <div class="checkName">
+                <form class="name-answer" onsubmit="return false;"><input type="hidden" name="name" value="diddy">
+                    <p>Do you know his name?<input type="submit" id="diddyButton" class="button namebtn" value="Check"></p>
+                </form>
+                <p id="diddy" class="name-p"></p>
+            </div>
+        </section>
+
+        <section id="boombox" class="page">
+            <div class="musicPlayers">
+                <img src="img/boombox.png" alt="Boombox">
+            </div>
+            <div class="checkName">
+                <form class="name-answer" onsubmit="return false;"><input type="hidden" name="name" value="tupac">
+                    <p>Do you know his name?<input type="submit" id="tupacButton" class="button namebtn" value="Check"></p>
+                </form>
+                <p id="tupac" class="name-p"></p>
+            </div>
+        </section>
+
+        <section id="cassette" class="page">
+            <div class="musicPlayers">
+                <img src="img/cassettePlayer.png" alt="Cassette Player">
+            </div>
+            <div class="checkName">
+                <form class="name-answer" onsubmit="return false;"><input type="hidden" name="name" value="snoop">
+                    <p>Do you know his name?<input type="submit" id="snoopButton" class="button namebtn" value="Check"></p>
+                </form>
+                <p id="snoop" class="name-p"></p>
+            </div>
+        </section>
+
+        <section id="cd" class="page">
+            <div class="musicPlayers">
+                <img src="img/cdPlayer.png" alt="CD Player">
+            </div>
+            <div class="checkName">
+                <form class="name-answer" onsubmit="return false;"><input type="hidden" name="name" value="big">
+                    <p>Do you know his name?<input type="submit" id="bigButton" class="button namebtn" value="Check"></p>
+                </form>
+                <p id="big" class="name-p"></p>
+            </div>
+        </section>
+
+        <section id="mp3" class="page">
+            <div class="musicPlayers">
+                <img src="img/mp3Player.png" alt="mp3 Player">
+            </div>
+            <div class="checkName">
+                <form class="name-answer" onsubmit="return false;"><input type="hidden" name="name" value="eminem">
+                    <p>Do you know his name?<input type="submit" id="eminemButton" class="button namebtn" value="Check"></p>
+                </form>
+                <p id="eminem" class="name-p"></p>
+            </div>
+        </section>
+
+        <section id="sp" class="page">
+            <div class="musicPlayers">
+                <img src="img/smartPhone.png" alt="Smart Phone">
+            </div>
+            <div class="checkName">
+                <form class="name-answer" onsubmit="return false;"><input type="hidden" name="name" value="kany">
+                    <p>Do you know his name?<input type="submit" id="kanyButton" class="button namebtn" value="Check"></p>
+                </form>
+                <p id="kany" class="name-p"></p>
+            </div>
+        </section>
+     
+    </section>
+
+    <footer id="footer">
+
+            <div class="footerContent">
+                
+                <section id="subscribe">
+                    <p>Subscribe to our monthly newsletter!</p>
+
+                    <form onsubmit="submitInfo();return false;">
+                        <label>Email: <input type="email" name="email" size="25" maxlength="25" id="email"></label>
+                        <p><input type="submit" id="submitButton" class="button" value="submit"></p>
+                    </form>
+                    <p id="answer"></p>
+                    <p id="thx"></p>
+                </section>
+
+                <section id="copyright">
+                    <p>&copy; 2015 musicRevolution</p>
+                </section>
+
+            </div>
+            
+        </footer>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/scroll.js"></script>
+<script src="js/subscribe.js"></script>
+<script src="js/getname.js"></script>
+
+</body>
+
+</html>

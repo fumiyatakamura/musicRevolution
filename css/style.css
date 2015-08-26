@@ -1,0 +1,303 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Futura, "Futura", Verdana, Tahoma, "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	height: 100%;
+}
+
+html {
+	height: 100%;
+}
+
+.wrapper {
+	height: 100%;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	color: #FFFFFF;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+input.button {
+	cursor: pointer;
+}
+
+nav a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+nav ul {
+	padding-left: 0;
+}
+
+nav li span.selected {
+	color: #FFFFFF;
+	opacity: 0.6;
+}
+
+nav a:hover {
+	opacity: 0.6;
+}
+
+header nav.genre ul {
+	padding-top: 18px;
+}
+
+header nav.genre h1 a, header nav.genre h1 a:hover, header nav.genre h1 a:active {
+	color: #5A5A5A;
+	float: left;
+	margin-top: 10px;
+	padding-left: 4%;
+	text-shadow: rgba(240, 240, 240, 1.0) 1px 1px;
+}
+
+header nav.genre h1 a:hover {
+	opacity: 1;
+}
+
+header nav.genre ul li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 0 4%;
+	border-right: #FFFFFF solid 1px;
+}
+
+header nav.genre ul li:last-child {
+	border-right: none;
+}
+
+header nav.era {
+	float: right;
+	padding-right: 4%;
+}
+/*fumiya added*/
+header nav.era {
+	position: fixed;
+	top: 10%;
+	right: 0;
+}
+
+header nav.era ul li {
+	list-style-type: none;
+	padding-top: 60%;
+}
+
+header nav.era ul li:first-child {
+	padding-top: 50%;
+}
+
+section.content {
+	height: 100%;
+}
+
+section.content section.page {
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100%;
+	position: relative;
+}
+
+section.content section.page div.musicPlayers {
+	margin: 0 auto;
+	position: absolute;
+	bottom: 29%;
+	left: 38%;
+}
+
+section.content section.page div.musicPlayers img {
+  margin: 0 auto;
+  display: block;
+}
+
+section.content section.page div.checkName {
+	position: absolute;
+	top: 70%;
+	left: 40%;
+}
+
+
+
+footer#footer {
+	width: 100%;
+	height: 100%;
+	background-color: #BFBFBF;
+	position: absolute;
+	top: 600%;
+	color: #FFFFFF;
+	z-index: -1;
+	text-align: center;
+}
+
+.footerContent #subscribe {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: auto;
+  height: 72px;
+}
+
+#thx, #answer{ margin: 30px; }/* fumiya added*/
+
+footer#footer .footerContent #subscribe > p:first-child {
+	padding: 0 60px 20px;
+}
+
+footer#footer .footerContent form p {
+	display: inline-block;
+}
+
+footer#footer .footerContent form p:first-child {
+	padding-right: 10px;
+}
+
+footer#footer .footerContent #copyright {
+	position: absolute;
+	bottom: 20px;
+	right: 10px;
+	width: 100%;
+	text-align: center;
+}
+
+footer#footer .footerContent form p input#submitButton,
+section.content section.page div.checkName form p input {
+	background: #34d989;
+	background-image: -webkit-linear-gradient(top, #34d989, #2bb34d);
+	background-image: -moz-linear-gradient(top, #34d989, #2bb34d);
+	background-image: -ms-linear-gradient(top, #34d989, #2bb34d);
+	background-image: -o-linear-gradient(top, #34d989, #2bb34d);
+	background-image: linear-gradient(to bottom, #34d989, #2bb34d);
+	-webkit-border-radius: 2;
+	-moz-border-radius: 2;
+	border-radius: 2px;
+	-webkit-box-shadow: 1px 1px 3px #999999;
+	-moz-box-shadow: 1px 1px 3px #999999;
+	box-shadow: 1px 1px 3px #999999;
+	color: #FFFFFF;
+	font-size: 12px;
+	padding: 8px 20px;
+	text-decoration: none;
+	font-family: Futura, "Futura", Verdana, Tahoma, "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	border: none;
+}
+
+section.content section.page div.checkName form p input {
+	margin-left: 20px;
+}
+
+.name-p {
+	text-align: center;
+	padding-top: 20px;
+} /*fumiya added*/
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+
+div.rock section.content section#record {
+	background-color: #ddc76e;
+	background-image: url(../img/elvis.png);
+}
+
+div.rock section.content section#boombox {
+	background-color: #f3c9e7;
+	background-image: url(../img/johnlennon.png);
+}
+
+div.rock section.content section#cassette {
+	background-color: #a6deee;
+	background-image: url(../img/jimi.png);
+}
+
+div.rock section.content section#cd {
+	background-color: #d9f5ba;
+	background-image: url(../img/bono.png);
+}
+
+div.rock section.content section#mp3 {
+	background-color: #f4cbc7;
+	background-image: url(../img/davegrohl.png);
+}
+
+div.rock section.content section#sp {
+	background-color: #ecefc2;
+	background-image: url(../img/chadkroeger.png);
+}
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+
+div.pop section.content section#record {
+	background-color: #f4acac;
+	background-image: url(../img/mj.png);
+}
+
+div.pop section.content section#boombox {
+	background-color: #a6deee;
+	background-image: url(../img/madonna.png);
+}
+
+div.pop section.content section#cassette {
+	background-color: #aad6c1;
+	background-image: url(../img/britneyspears.png);
+}
+
+div.pop section.content section#cd {
+	background-color: #f0c3e3;
+	background-image: url(../img/katyperry.png);
+}
+
+div.pop section.content section#mp3 {
+	background-color: #9de2c5;
+	background-image: url(../img/ladygaga.png);
+}
+
+div.pop section.content section#sp {
+	background-color: #ebb0b0;
+	background-image: url(../img/rihanna.png);
+}
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+
+div.rap section.content section#record {
+	background-color: #bab6e5;
+	background-image: url(../img/diddy.png);
+}
+
+div.rap section.content section#boombox {
+	background-color: #9fddcf;
+	background-image: url(../img/tupac.png);
+}
+
+div.rap section.content section#cassette {
+	background-color: #f7d8af;
+	background-image: url(../img/snoopdog.png);
+}
+
+div.rap section.content section#cd {
+	background-color: #b7e4e7;
+	background-image: url(../img/b.i.g..png);
+}
+
+div.rap section.content section#mp3 {
+	background-color: #f2c0b1;
+	background-image: url(../img/eminem.png);
+}
+
+div.rap section.content section#sp {
+	background-color: #c5eb9c;
+	background-image: url(../img/kanyewest.png);
+}
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+

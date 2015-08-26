@@ -1,0 +1,187 @@
+/*************************
+*     responsive.css     *
+*************************/
+
+
+/* Viewport Smaller PC
+   =========================================================================== */
+
+    
+@media (max-width: 1024px) {
+
+section.content section.page div.musicPlayers {
+    position: absolute;
+    bottom: 32%;
+    left: 33%;
+}
+
+section.content section.page div.musicPlayers img {
+    width: 85%;
+    height: 85%;
+}
+
+section.content section.page div.checkName {
+    position: absolute;
+    left: 36%;
+    top: 72%;
+}
+
+header nav.genre h1 {
+    margin-top: 9px;
+}
+
+header nav.genre ul {
+    margin-top: 10px;
+}
+
+div.wrapper section.content section {
+    background-size: 425px;
+}
+
+}
+
+
+
+/* Viewport iPad Stylesheet: Portrait
+   =========================================================================== */
+
+    
+@media (max-width: 800px) { 
+
+section.content section.page div.musicPlayers {
+    position: absolute;
+    bottom: 32%;
+    left: 25%;
+}
+
+section.content section.page div.musicPlayers img {
+    width: 70%;
+    height: 70%;
+}
+
+section.content section.page div.checkName {
+    position: absolute;
+    left: 30%;
+}
+
+header nav.genre h1 {
+    margin-top: 9px;
+}
+
+header nav.genre ul {
+    margin-top: 6px;
+}
+
+div.wrapper section.content section {
+    background-size: 410px;
+}
+
+}
+
+
+/* Viewport Mobile
+   =========================================================================== */
+
+@media (max-width: 680px) {
+
+section.content section.page div.musicPlayers {
+    position: absolute;
+    bottom: 40%;
+    left: 20%;
+}
+
+section.content section.page div.musicPlayers img {
+    width: 60%;
+    height: 60%;
+}
+
+section.content section.page div.checkName {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+
+section.content section.page div.checkName form p {
+    text-align: center;
+}
+
+section.content section.page div.checkName form p input {
+    padding: 10px 100px;
+    margin: 10px 20% 0;
+}
+
+div.wrapper section.content section {
+    background-size: 400px;
+}
+
+footer#footer .footerContent #subscribe {
+    right: 100px;
+}
+
+footer#footer .footerContent #copyright {
+    right: 50px;
+}
+
+footer#footer .footerContent #subscribe > form {
+    padding: 0 30px;
+}
+
+footer#footer .footerContent form p input#submitButton {
+    padding: 8px 88px;
+    margin: 10px 109px 0 100px;
+}
+
+}
+
+
+/* Viewport Mobile
+   =========================================================================== */
+
+@media (max-width: 600px) {
+
+
+footer#footer .footerContent form p input#submitButton {
+    margin: 10px 50px 0;
+}
+
+footer#footer .footerContent #subscribe > form {
+  padding: 0;
+}
+
+}
+
+
+/* Viewport Mobile
+   =========================================================================== */
+
+@media (max-width: 500px) {
+
+.footerContent #subscribe {
+  height: 150px;
+}
+
+section.content section.page div.musicPlayers {
+    position: absolute;
+    bottom: 43%;
+    right: 32%;
+}
+
+section.content section.page div.checkName form p input {
+    margin: 10px 5% 0;
+}
+
+section.content section.page div.checkName {
+    position: absolute;
+    bottom: 31%;
+    right: 26%;
+}
+
+div.wrapper section.content section {
+    background-size: 380px;
+}
+
+footer#footer .footerContent form p input#submitButton {
+    margin: 10px 29px 0 20px;
+}
+
+}
